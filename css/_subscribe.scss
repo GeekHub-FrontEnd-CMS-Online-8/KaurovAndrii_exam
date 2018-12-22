@@ -1,0 +1,22 @@
+/*block subscribe*/
+#subscribe{
+	background: url(../img/bg-subs.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.subscribe_content{
+	padding: 250px 0 200px 0;
+	text-align: center;
+	h2{
+		font-size: $fs*3;
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+	p input{
+		padding: 20px 50px 20px 30px;
+		border-radius: 10px;
+		text-transform: uppercase;
+		color: #373737;
+	}
+}

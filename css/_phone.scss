@@ -1,0 +1,27 @@
+/*block phone*/
+#phone{
+	background: #f5f6f7;
+}
+.phone-content{
+	display: flex;
+	padding-top: 100px;
+	&__text{
+		width: 50%;
+		h2{
+			color: #16a085;
+			font-size: $fs+10;
+		}
+		p{
+			color: #89898a;
+			font-size: $fs*1.5;
+			margin: 40px 0;
+			span{
+				font-weight: $fwb;
+				color: #373737;
+			}
+		}
+	}
+	&__image{
+		width: 50%;
+	}
+}

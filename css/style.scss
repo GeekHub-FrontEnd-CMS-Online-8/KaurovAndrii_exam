@@ -1,0 +1,33 @@
+/*specifitation*/
+$fs: 8;
+$fwb: 700;
+$ff: Gotham, sans-serif;
+
+@font-face{
+	font-family: Gotham;
+	src: url(../fonts/Gotham.ttf);
+}
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-size: $fs*2;
+	font-family: $ff;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+}
+.div{
+	box-sizing: border-box;
+}
+img{
+	display: block;
+}
+
+@import 'header';
+@import 'phone';
+@import 'community';
+@import 'subscribe';
+@import 'download';
+@import 'footer';
